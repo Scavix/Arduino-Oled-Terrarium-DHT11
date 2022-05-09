@@ -12,4 +12,6 @@ Project with Arduino to keep a Tarantula Terrarium Warm with a dht11 and a heatp
 
 # How does it Work:
 
-The arduino check every 2 second the temperature and the humidity from the dht11 sensor. This numbers are shown in the display. if the temperature is too low the relay is turned on so the heatpad also turn on, else if it's too hot the relay is turned off.
+The Arduino board checks every X seconds (your choiche) the temperature and the humidity from the dht11 sensor.
+This numbers are shown in the OLED display.
+If the temperature is too low (your choiche) the relay activated and the heatpad also turn on, otherwise if it's too hot (your choiche) the relay is turned off.
